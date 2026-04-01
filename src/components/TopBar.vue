@@ -35,4 +35,39 @@
   .logo{
     width: 100px;
   }
+  .navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #eee;
+  padding: 0.8rem 1rem;
+  }
+
+  .navbar-brand {
+  color: #2d3436 !important;
+  font-size: 1.5rem;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  }
+  .form-control {
+  border-radius: 20px;
+  background-color: #f1f3f4;
+  border: 1px solid transparent;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #ffc107;
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.btn-outline-success:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
 </style>

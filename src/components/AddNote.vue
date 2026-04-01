@@ -68,5 +68,46 @@
 </template>
 
 <style scoped>
-  
+.container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #2d3436;
+  font-weight: 800;
+}
+
+.form-control {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  color: #2d3436;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.15);
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: #b2bec3;
+}
+
+
+.btn-outline-success {
+  border-color: #2ecc71;
+  color: #2ecc71;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-outline-success:hover {
+  background-color: #2ecc71;
+  color: white;
+}
 </style>
